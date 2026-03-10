@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Table Of Content Block
  * Description: The Table of Contents block automatically generates a table of contents for your WordPress post or page.
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * Requires at least:	6.5
@@ -19,7 +19,7 @@ if ( function_exists( 'tbcnb_fs' ) ) {
 	tbcnb_fs()->set_basename( true, __FILE__ );
 }else {
 	// Constant
-	define( 'TBCNB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.6' );
+	define( 'TBCNB_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.7' );
 	define( 'TBCNB_DIR_URL', plugin_dir_url( __FILE__ ) );
 	define( 'TBCNB_DIR_PATH', plugin_dir_path( __FILE__ ) );
 
@@ -35,7 +35,7 @@ if ( function_exists( 'tbcnb_fs' ) ) {
 				'slug'                => 'table-of-content-block',
 				'type'                => 'plugin',
 				'public_key'          => 'pk_76ee353e51da337d61c9d64277075',
-				'is_premium'          => true,
+				'is_premium'          => false,
 				'premium_suffix'      => 'Pro',
 				// If your plugin is a serviceware, set this option to false.
 				'has_premium_version' => true,
