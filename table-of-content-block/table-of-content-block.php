@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Table Of Content Block
  * Description: The Table of Contents block automatically generates a table of contents for your WordPress post or page.
- * Version: 1.0.7
+ * Version: 1.0.8
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * Requires at least:	6.5

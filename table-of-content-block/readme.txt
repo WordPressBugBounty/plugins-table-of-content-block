@@ -3,11 +3,11 @@ Contributors:	bplugins, abuhayat, muradwahid
 Donate link:		https://www.buymeacoffee.com/abuhayat
 Tags: block, sitemap, table of content block, table of contents, Best Table of Contents
 Tested up to:		6.9
-Stable tag:			1.0.7
+Stable tag:			1.0.8
 License:			GPLv3 or later
 License URI:		http://www.gnu.org/licenses/gpl-3.0.html
 
-The Table of Contents block allows you to automatically generate a table of contents for your WordPress post or page. 
+The Table of Contents block allows you to automatically generate a table of contents for your WordPress post or page.
 
 == Description ==
 
@@ -134,6 +134,9 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 
 == Changelog ==
+
+= 1.0.8 - 29 April 26 =
+* Added Nested heading option.
 
 = 1.0.7 - 10 Mar 26 =
 * Fixed heading innerTag remove issue.
